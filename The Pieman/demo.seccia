@@ -18612,11 +18612,11 @@
 "uid": "S_HOME",
 "content": {
 "nextID": 18,
-"zoom": 62,
+"zoom": 57,
 "ambient": -1,
 "blur": -1,
-"x": 565,
-"y": 453,
+"x": 420,
+"y": 333,
 "light_blur": -1,
 "light_ambient": -1,
 "logic": "L_HOME"
@@ -76363,35 +76363,9 @@
 "sentence": {
 "sentences": [
 {
-"id": 1,
-"speaker": "O_HERO",
+"id": 4,
 "text": {
-"en": "They seem to have fun.",
-"fr": "Elles ont l'air de bien s'amuser.",
-"de": "Sie scheinen Spaß zu haben.",
-"it": "Loro hanno l'aria di distrarsi molto.",
-"ru": "~041A~0430~0436~0435~0442~0441~044F, ~0438~043C ~0442~0430~043C ~0432~0435~0441~0435~043B~043E.",
-"tw": "~4ED6~5011~4F3C~4E4E~5F88~958B~5FC3~3002",
-"ja": "~5F7C~3089~306F~697D~3057~3044~3088~3046~3067~3059~3002",
-"ko": "~ADF8~B4E4~C740 ~C7AC~BBF8~C788~AC8C ~BCF4~C785~B2C8~B2E4.",
-"cn": "~4ED6~4EEC~4F3C~4E4E~5F88~5F00~5FC3~3002"
-},
-"sentences": [
-{
-"id": 2,
-"speaker": "O_HERO",
-"dir": "FRONT",
-"keep_dir": true,
-"text": {
-"en": "I did not want to deal with now. I have better things to do.",
-"fr": "Je n'ai pas envie de m'en occuper pour l'instant. J'ai mieux à faire.",
-"de": "Ich will mich jetzt nicht damit befassen. Ich habe Wichtigeres zu tun.",
-"it": "Non ho voglia d'occuparmi per il momento. Ho qualcosa di meglio da fare.",
-"ru": "~0421~0435~0439~0447~0430~0441 ~0435~0441~0442~044C ~0434~0435~043B~0430 ~043F~043E~0432~0430~0436~043D~0435~0435.",
-"tw": "~6211~73FE~5728~4E0D~60F3~8655~7406~6211~6709~66F4~597D~7684~4E8B~60C5~8981~505A",
-"ja": "~79C1~306F~4ECA~5BFE~51E6~3057~305F~304F~306A~304B~3063~305F~3002~79C1~306F~3082~3063~200B~200B~3068~826F~3044~3053~3068~304C~3042~308A~307E~3059~3002",
-"ko": "~B098~B294 ~C9C0~AE08 ~B2E4~B8E8~ACE0 ~C2F6~C9C0 ~C54A~C558~B2E4. ~B098~B294 ~D560 ~C77C~C774 ~B354 ~C88B~B2E4.",
-"cn": "~6211~73B0~5728~4E0D~60F3~5904~7406~3002~6211~6709~66F4~597D~7684~4E8B~60C5~8981~505A~3002"
+"en": "la porte est fermé il faut trouver une clé "
 },
 "voice": {
 "en": [
@@ -76424,59 +76398,7 @@
 {},
 {}
 ],
-"tw": [
-{},
-{},
-{},
-{}
-],
-"ja": [
-{},
-{},
-{},
-{}
-],
-"ko": [
-{},
-{},
-{},
-{}
-],
 "cn": [
-{},
-{},
-{},
-{}
-]
-}
-}
-],
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-],
-"de": [
-{},
-{},
-{},
-{}
-],
-"it": [
-{},
-{},
-{},
-{}
-],
-"ru": [
 {},
 {},
 {},
@@ -76487,97 +76409,9 @@
 {},
 {},
 {}
-],
-"ja": [
-{},
-{},
-{},
-{}
-],
-"ko": [
-{},
-{},
-{},
-{}
-],
-"cn": [
-{},
-{},
-{},
-{}
 ]
-}
 },
-{
-"id": 3,
-"speaker": "O_HERO",
-"text": {
-"en": "Yes... it's very quick!",
-"ru": "~0414~0430, ~0432~043E~0442 ~044D~0442~043E ~0441~043A~043E~0440~043E~0441~0442~044C!",
-"fr": "En effet... c'est très rapide !",
-"it": "Quindi... è molto rapido.",
-"de": "Ja... das war sehr schnell!",
-"tw": "~662F~7684~FF0C~9019~5F88~5FEB~FF01",
-"ja": "~306F~3044...~305D~308C~306F~975E~5E38~306B~901F~3044~3067~3059~FF01",
-"ko": "~C608 ... ~C544~C8FC ~BE60~B985~B2C8~B2E4!",
-"cn": "~662F~7684......~5B83~5F88~5FEB~FF01"
-},
-"voice": {
-"en": [
-{},
-{},
-{},
-{}
-],
-"ru": [
-{},
-{},
-{},
-{}
-],
-"fr": [
-{},
-{},
-{},
-{}
-],
-"it": [
-{},
-{},
-{},
-{}
-],
-"de": [
-{},
-{},
-{},
-{}
-],
-"tw": [
-{},
-{},
-{},
-{}
-],
-"ja": [
-{},
-{},
-{},
-{}
-],
-"ko": [
-{},
-{},
-{},
-{}
-],
-"cn": [
-{},
-{},
-{},
-{}
-]
-}
+"speaker": "O_HERO"
 }
 ],
 "voice": {
@@ -76625,7 +76459,7 @@
 ]
 }
 },
-"nextID": 4
+"nextID": 5
 },
 "sid": 10
 },
@@ -88605,7 +88439,7 @@
 "uid": "L_HOME",
 "graph": {
 "board": {
-"nextid": 2031,
+"nextid": 2079,
 "x": 929,
 "y": 896,
 "boxes": [
@@ -89233,14 +89067,14 @@
 {
 "type": 1285,
 "id": 1990,
-"x": -890,
-"y": -713,
+"x": -863,
+"y": -691,
 "plugs": [
 {
 "id": 1991,
 "type": 3,
 "trgs": [
-1993
+2070
 ]
 }
 ],
@@ -89249,22 +89083,68 @@
 "label": "KEY"
 },
 {
-"type": 791,
-"id": 1992,
-"x": -758,
-"y": -712,
+"type": 1034,
+"id": 2069,
+"x": -694,
+"y": -689,
 "plugs": [
 {
-"id": 1993,
+"id": 2070,
 "type": 2
 },
 {
-"id": 1994,
+"id": 2071,
+"type": 3,
+"trgs": [
+2074
+]
+},
+{
+"id": 2072,
+"type": 3,
+"trgs": [
+2077
+]
+}
+],
+"player": "P_HERO",
+"item": "I_KEY"
+},
+{
+"type": 791,
+"id": 2073,
+"x": -437,
+"y": -707,
+"plugs": [
+{
+"id": 2074,
+"type": 2
+},
+{
+"id": 2075,
 "type": 3
 }
 ],
 "name": "jump",
 "arg": "S_FINAL"
+},
+{
+"type": 781,
+"id": 2076,
+"x": -468,
+"y": -642,
+"plugs": [
+{
+"id": 2077,
+"type": 2
+},
+{
+"id": 2078,
+"type": 3
+}
+],
+"dialog": "D_HOME",
+"sentence": "4"
 }
 ]
 }
