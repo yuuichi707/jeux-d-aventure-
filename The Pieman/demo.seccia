@@ -315,7 +315,7 @@
 "init": "// this script is called when a new game is started or when a previous game is loaded\r\n// you can set here your variables and they will be initialized even for savegames"
 },
 "meta": {
-"nextAssetID": 66
+"nextAssetID": 68
 }
 },
 "puzzle": {
@@ -67312,10 +67312,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 100,
-"nextID": 3,
-"x": 418,
-"y": 244
+"zoom": 62,
+"nextID": 4,
+"x": 18,
+"y": 50
 },
 "layers": {
 "BACK": {
@@ -69290,7 +69290,10 @@
 },
 {
 "col": 22,
-"row": 30
+"row": 30,
+"link_sel_instance": {
+"instance": "ERNERGY"
+}
 },
 {
 "col": 22,
@@ -73271,6 +73274,56 @@
 "a": 90,
 "b": 100
 }
+]
+},
+{
+"name": "ERNERGY",
+"depths": [
+{
+"a": 20,
+"b": 100
+},
+{
+"y": 1120,
+"a": 20,
+"b": 100
+}
+],
+"uid": "O_ERNERGY",
+"id": 3,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 349,
+"y": 293,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
 ]
 }
 ],
@@ -86711,6 +86764,156 @@
 }
 ]
 }
+},
+{
+"sid": 67,
+"uid": "O_ERNERGY",
+"content": {
+"bbox": true,
+"width": 324,
+"height": 372
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "952ffa5505a62980"
+},
+"lo": {
+"aid": "d379b07dd6278464"
+}
+},
+"w": 324,
+"h": 372
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 324,
+"h": 372
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "6a65a271135ae407"
+},
+"texture": {
+"aid": "f0d10cf18003d2be"
+}
+}
+]
+}
 }
 ],
 "players": [
@@ -89961,7 +90164,7 @@
 "uid": "L_FINAL1",
 "graph": {
 "board": {
-"nextid": 8,
+"nextid": 13,
 "boxes": [
 {
 "type": 257,
@@ -90008,6 +90211,44 @@
 "var_cmp": "==",
 "scene": "S_FINAL1",
 "label": "FINAL0"
+},
+{
+"type": 1287,
+"id": 8,
+"x": 118,
+"y": 210,
+"plugs": [
+{
+"id": 9,
+"type": 3,
+"trgs": [
+11
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_FINAL1",
+"instance": "ERNERGY"
+},
+{
+"type": 788,
+"id": 10,
+"x": 352,
+"y": 209,
+"plugs": [
+{
+"id": 11,
+"type": 2
+},
+{
+"id": 12,
+"type": 3
+}
+],
+"player": "P_HERO",
+"item": "I_ENERGY",
+"instance": "ERNERGY",
+"silent": "False"
 }
 ]
 }
@@ -90436,6 +90677,23 @@
 },
 "texture": {
 "aid": "544ae2abdaa44de3"
+}
+},
+{},
+{},
+{}
+]
+},
+{
+"sid": 66,
+"uid": "I_ENERGY",
+"icons": [
+{
+"image": {
+"aid": "5a6d025c7a0efdcc"
+},
+"texture": {
+"aid": "8226a156c2dc5304"
 }
 },
 {},
